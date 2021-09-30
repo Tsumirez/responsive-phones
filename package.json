@@ -1,0 +1,23 @@
+{
+  "name": "responsive-site-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsumirez/responsive-phones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsumirez/responsive-phones/issues"
+  },
+  "homepage": "https://github.com/Tsumirez/responsive-phones#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
