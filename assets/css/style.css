@@ -224,6 +224,10 @@ img {
 }
 
 /* Change background header */
+.scroll-header {
+    background-color: var(--body-color);
+}
+
 
 /* Active link */
 
@@ -300,3 +304,5 @@ img {
     align-items: center;
     column-gap: .75rem;
 }
+
+/* ================== SPONSOR ================== */
