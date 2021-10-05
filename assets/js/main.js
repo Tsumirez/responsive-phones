@@ -38,3 +38,13 @@ function scrollHeader() {
 }
 
 window.addEventListener('scroll', scrollHeader)
+
+/* ================== SHOW SCROLL UP ================ */
+function scrollUp() {
+    const scrollUp = document.getElementById('scroll-up');
+    // when the scroll is higher than 200 viewport height reveal the link to top of page
+    if(this.scrollY >= 200) scrollUp.classList.add('show-scroll'); 
+    else scrollUp.classList.remove('show-scroll');
+}
+
+window.addEventListener('scroll', scrollUp);
