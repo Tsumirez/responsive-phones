@@ -232,6 +232,9 @@ img {
 }
 
 /* Active link */
+.active-link {
+    color: var(--white-color);
+}
 
 /* ================== HOME ================== */
 .home__img {
